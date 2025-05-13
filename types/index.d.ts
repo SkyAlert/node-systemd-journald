@@ -1,4 +1,4 @@
-declare module "systemd-journald" {
+declare module "@skyalert/systemd-journald" {
   // https://man7.org/linux/man-pages/man7/systemd.journal-fields.7.html
   export type JournalFields = {
     message_id?: string,
